@@ -1,0 +1,35 @@
+.balloon1 {
+    position: absolute;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    background: #e0edff;
+    width: 250px;
+    height: 100px;
+  }
+  
+  .balloon1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid #e0edff;
+  }
+  
+  .balloon1 p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas#board {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
