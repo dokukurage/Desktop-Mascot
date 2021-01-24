@@ -28,7 +28,7 @@ function createWindow () {
   // win.webContents.openDevTools();
 
   // マウス無効化
-  //win.setIgnoreMouseEvents(true);
+  win.setIgnoreMouseEvents(true);
 
   win.maximize();
   //index.htmlをロード
